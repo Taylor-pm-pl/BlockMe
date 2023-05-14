@@ -1,0 +1,6 @@
+name: BlockMe
+main: TaylorR\BlockMe\Loader
+version: 1.0.0
+api: 4.0.0
+author: TaylorR
+description: Players can block each other
