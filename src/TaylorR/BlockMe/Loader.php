@@ -17,8 +17,8 @@ class Loader extends PluginBase implements Listener {
             PlayerMoveEvent::class,
             function (PlayerMoveEvent $event): void {
                 $player = $event->getPlayer();
-                if ($player->isSpectator()) return;
                 $viewers = $player->getViewers();
+                if ($player->isSpectator()) return;
                 foreach ($viewers as $viewer) {
                     $p_pos = $player->getPosition();
                     $v_pos = $viewer->getPosition();

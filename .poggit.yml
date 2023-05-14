@@ -4,5 +4,6 @@ branches:
 - main
 projects:
   BlockMe:
+    icon: "assets/img/icon.png"
     path: ""
 ...
